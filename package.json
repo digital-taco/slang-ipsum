@@ -2,10 +2,18 @@
   "name": "@digital-taco/slang-ipsum",
   "version": "1.0.0",
   "description": "Yeet your ipsum text with the weirdest flex.",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup ./src/index.js --file ./dist/bundle.js --format umd --name \"slang-ipsum\"",
+    "prepublish": "npm run build"
   },
+  "files": [
+    "dist/"
+  ],
   "author": "Zachintosh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^1.31.0"
+  }
 }
