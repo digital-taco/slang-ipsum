@@ -1,0 +1,11 @@
+{
+  "name": "@digital-taco/slang-ipsum",
+  "version": "1.0.0",
+  "description": "Yeet your ipsum text with the weirdest flex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachintosh",
+  "license": "ISC"
+}
