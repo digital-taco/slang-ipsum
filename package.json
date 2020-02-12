@@ -1,6 +1,6 @@
 {
   "name": "@digital-taco/slang-ipsum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeet your ipsum text with the weirdest flex.",
   "main": "./dist/bundle.js",
   "scripts": {
