@@ -17,13 +17,13 @@ export function sentence({ wordCount, slangOnly = false } = {}) {
   return `${sentenceWords.join(' ')}.`
 }
 
-export function paragraph(sentenceCount) {
+export function paragraph({ sentenceCount, slangOnly = false }) {
   let length = sentenceCount|| 0;
   if (!sentenceCount) {
     while (length < 3) {
       length = Math.random() * 10
     }
   }
-  const para = Array.from({ length }, () => sentence())
+  const para = Array.from({ length }, () => sentence({ slangOnly }))
   return para.join(' ')
 }
