@@ -17,8 +17,6 @@ slang-ipsum exports two function: `sentence()` and `paragraph()`.
 
 ## sentence()
 
-Example:
-
 ```js
 import { sentence } from '@digital-taco/slang-ipsum'
 // OR if in Node
@@ -37,8 +35,6 @@ const slangText = sentence({ wordCount: 7, slangOnly: true })
 |slangOnly|false|If true, only slang words are used. All lorem ipsum words are removed.|
 
 ## paragraph()
-
-Example:
 
 ```js
 import { paragraph } from '@digital-taco/slang-ipsum'
