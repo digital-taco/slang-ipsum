@@ -11,6 +11,32 @@ Bask in the hunnit-p dank dopeness of this heckin woke generator. So yolo. So li
 > <sup>1. Probably not, truthfully, since kids nowadays can't read.</sup><br />
 > <sup>2. The author is aware of his inability to properly use slang.</sup>
 
+# CLI
+
+Install globally to use the `slang-ipsum` CLI.
+
+```
+> npm install -g @digital-taco/slang-ipsum
+```
+
+The following will echo out slang ipsum as paragraphs or sentences
+
+```
+> slang-ipsum [paragraph|sentence] [<number>] [--slang-only]
+```
+
+For example, `slang-ipsum paragraph 2` will output:
+
+```
+Torquent imperdiet iaculis fermentum suscipit augue vitae heckin per bibendum condimentum habitant extra turnt rhoncus taciti. Dictum proin aptent vulputate himenaeos curabitur bae morbi. Magna sem cubilia goat volutpat hendrerit quam gucci ghost hendrerit mollis consequat vulputate ut semper maecenas donec.
+```
+
+Where the flag `slang-ipsum paragraph 2 --slang-only` will output:
+
+```
+Ima dope snack heckin shook stan swerve salty. Bruh clap back humble brag dank gucci ship snack sheeple jomo gucci beat yolo lay flame woke sheeple. Blessed blessed gucci bruh ratchet swol lit trill snatched. Swol lit ratchet bruh low key humble brag yaas.
+```
+
 # API
 
 slang-ipsum exports two function: `sentence()` and `paragraph()`.
