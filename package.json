@@ -1,6 +1,6 @@
 {
   "name": "@digital-taco/slang-ipsum",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Yeet your ipsum text with the weirdest flex.",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "rollup": "^1.31.0"
+  },
+  "bin": {
+    "slang-ipsum": "cli.js"
   }
 }

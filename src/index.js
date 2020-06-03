@@ -18,7 +18,7 @@ export function sentence({ wordCount, slangOnly = false } = {}) {
 }
 
 export function paragraph({ sentenceCount, slangOnly = false }) {
-  let length = sentenceCount|| 0;
+  let length = sentenceCount || 0;
   if (!sentenceCount) {
     while (length < 3) {
       length = Math.random() * 10
